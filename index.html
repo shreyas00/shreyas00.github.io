@@ -1,7 +1,135 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<h1>
-	HEY
-</h1>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreyas Shubhankar</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, Helvetica, sans-serif, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d3d9d4;
+            /* background-color: #ede8f5; */
+        }
+        header {
+            background-color: #d3d9d4;
+            /* background-color: #3d52a0; */
+            color: #333;
+            padding: 20px 0;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+			margin-right: 25%;
+			margin-left: 25%;
+            background-color: #f0f3f0;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .timeline {
+            list-style: none;
+            padding: 0;
+        }
+        .timeline-item {
+            margin-bottom: 20px;
+			border-bottom: 1px solid #ddd; /* Add faint line between timeline items */
+        }
+		.timeline-item:last-child {
+            border-bottom: none; /* Remove border-bottom from the last item */
+        }
+        .timeline-item h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .timeline-item p {
+            margin-top: 0px;
+            color: #777;
+			
+        }
+		.left-paragraph,
+        .right-paragraph {
+            width: calc(50% - 10px); /* Calculate width for each paragraph */
+		}
+    </style>
 </head>
+<body>
+    <header>
+        <h1>Welcome to the personal website of Shreyas Shubhankar!</h1>
+		<a href="https://www.linkedin.com/in/shreyas-shubhankar/" target="_blank">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Logo" style="width: 50px;">
+		</a>
+		<span style="margin-right: 20px;"></span><!-- Space between logos -->
+		<a href="https://github.com/shreyas00" target="_blank">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub Logo" style="width: 50px;">
+		</a>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+			Hello, I am an MS student at UC Irvine specializing in Computer Engineering. 
+			I have 3+ years of experience in the domain of embedded software through my work at Infineon. 
+			My key area of experience is in developing Infineon low-level device drivers for the 3rd generation of AURIX microcontrollers. 
+			I have worked on several drivers such as PCIe, CAN-XL, PWM, and Security. Additionally, my implementation of Python tools and automations have helped save more than 150 person-days of effort.
+		</p>
+    </section>
+	
+    <section id="work-experience">
+        <h2>My Work Experience</h2>
+        <ul class="timeline">
+			<li class="timeline-item">
+				<div style="display: flex; align-items: start;">
+					<a href="https://www.infineon.com" target="_blank">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Infineon-Logo.svg/2560px-Infineon-Logo.svg.png" alt="BIT Logo" style="width: 90px; margin-right: 10px;" >
+					</a>
+					<div>
+						<h3>Infineon Technologies</h3>
+						<p>Senior Specialist (Software & Firmware),	Apr 2023 - Aug 2023</p>
+						<p>Specialist (Software & Firmware),  		Oct 2021 - Mar 2023</p>
+						<p>Engineer (Software & Firmware),			Jul 2020 - Sep 2021</p>
+						<p>Intern (Embedded Software),				Jan 2020 - Jun 2020</p>
+					</div>
+				</div>
+            </li>
+            <!-- Add more work experience timeline items as needed -->
+        </ul>
+    </section>
+
+	<section id="education">
+		<h2>My Education</h2>
+		<ul class="timeline">
+			<li class="timeline-item">
+				<div style="display: flex; align-items: center;">
+					<a href="https://uci.edu/" target="_blank">
+						<img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/University_of_California%2C_Irvine_seal.svg/800px-University_of_California%2C_Irvine_seal.svg.png" alt="UCI Logo" style="width: 90px; margin-right: 10px;">
+					</a>
+					<div>
+						<h3>University of California, Irvine</h3>
+						<p>Master of Science - MS, Computer Engineering</p>
+						<p>Dec 2024</p>
+					</div>
+				</div>
+			</li>
+			<li class="timeline-item">
+				<div style="display: flex; align-items: center;">
+					<a href="https://www.bitmesra.ac.in/" target="_blank">
+						<img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Birla_Institute_of_Technology_Mesra.png/220px-Birla_Institute_of_Technology_Mesra.png" alt="BIT Logo" style="width: 90px; margin-right: 10px;">
+					</a>
+					<div>
+						<h3>Birla Institute of Technology, Mesra</h3>
+						<p>Bachelor of Engineering - BE, Electrical and Electronics Engineering</p>
+						<p>Jan 2020</p>
+					</div>
+				</div>
+			</li>
+			<!-- Add more education timeline items as needed -->
+		</ul>
+	</section>
+</body>
+</html>
