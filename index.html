@@ -29,6 +29,9 @@
             border-radius: 10px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
+        section:hover {
+            background-color: #f0f0f0; /* Change background color on hover */
+        }
         h2 {
             color: #333;
         }
@@ -56,6 +59,14 @@
         .right-paragraph {
             width: calc(50% - 10px); /* Calculate width for each paragraph */
 		}
+        .skill-item p {
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd; /* Add faint line between timeline items */
+            /* margin-bottom: 20px; */
+        }
+        .skill-item p:last-child {
+            border-bottom: none;
+        }
     </style>
 </head>
 <body>
@@ -78,6 +89,15 @@
 			My key area of experience is in developing Infineon low-level device drivers for the 3rd generation of AURIX microcontrollers. 
 			I have worked on several drivers such as PCIe, CAN-XL, PWM, and Security. Additionally, my implementation of Python tools and automations have helped save more than 150 person-days of effort.
 		</p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skill-item">
+            <p><b>Technical: </b>Embedded Software Development, Device Drivers</p>
+            <p><b>Programming Languages: </b>Embedded C, Python</p>
+            <p><b>Tools: </b>Git, Regex, Linux, Debuggers, JIRA</p>
+        </div>
     </section>
 	
     <section id="work-experience">
